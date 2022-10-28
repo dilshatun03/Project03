@@ -1,0 +1,46 @@
+/* phone or xm */
+@media (max-width:575px){
+    #banner .banner_cnt h1 {
+        font-size: 30px;
+    }    
+    #about .card_item{
+        border-right: none;
+        border-bottom: 1px solid #888;
+    }
+}
+/* tablet or sm */
+@media (min-width: 576px) and (max-width: 767px){
+    #banner .banner_cnt h1 {
+        font-size: 30px;
+    }
+}
+/* laptop or md */
+@media (min-width: 768px) and (max-width: 991px){
+    #banner {
+        height: 540px;        
+    }
+    #banner .row {
+        height: 540px;
+    }
+    #about .card_item:nth-child(even) {
+        border-right: none;        
+    }
+    #about .card_item{
+        margin-bottom: 10px;
+    }
+}
+/* desktop or lg */
+@media (min-width: 992px) and (max-width: 1199px){}
+@media (min-width:320px) and (max-width: 767px){
+    #myNav ul li a {        
+        padding: 16px 25px;
+    }
+}
+@media (min-width: 320px) and (max-width: 767px){
+    #banner {
+        height: 350px;        
+    }
+    #banner .row {
+        height: 350px;
+    }
+}
